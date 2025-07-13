@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-46"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">CSC 378 Project 1</command>
+    <result xml:space="preserve">CSC 378 Project 1&#x000A;An Interactive Fiction by Koichi&#x000A;Release 1 / Serial number 220111 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Front Porch&#x000A;There is an abandoned house in front of you. All the windows and doors are boarded up. There seems to be no entry from this side of the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-3"/>
+      <child nodeId="node-5"/>
+      <child nodeId="node-6"/>
+      <child nodeId="node-7"/>
+      <child nodeId="node-8"/>
+      <child nodeId="node-29"/>
+      <child nodeId="node-32"/>
+      <child nodeId="node-34"/>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">take house</command>
+    <result xml:space="preserve">That's hardly portable.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">take hosue</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">take house</command>
+    <result xml:space="preserve">That's hardly portable.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">West side of the House&#x000A;You are facing the West side of the house. There are windows but they are boarded up.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">West side of the House&#x000A;You are facing the West side of the house. Windows are boarded up on this side too. Gotta be some way in.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Front Porch&#x000A;There is an abandoned house in front of you. All the windows and doors are boarded up. There seems to be no entry from this side of the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">East side of the House&#x000A; A couple racoons scurry away as you turn the corner.  You are facing the East side of the house. There is a knocked over trash can that the racoons were looting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">x trash can</command>
+    <result xml:space="preserve">There is only rotten food and a rusty knife in here.&#x000A;&#x000A;In trash can is a knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">go east </command>
+    <result xml:space="preserve">A couple racoons scurry away as you turn the corner&#x000A;You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">East side of the House&#x000A; A couple racoons scurry away as you turn the corner.  You are facing the East side of the house. There is a knocked over trash can that the racoons were looting.&#x000A;&#x000A;You can see a knife here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+      <child nodeId="node-12"/>
+      <child nodeId="node-14"/>
+      <child nodeId="node-17"/>
+      <child nodeId="node-20"/>
+      <child nodeId="node-21"/>
+      <child nodeId="node-27"/>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Front Porch&#x000A;There is an abandoned house in front of you. All the windows and doors are boarded up. There seems to be no entry from this side of the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">RightHouse&#x000A;You are facing the East side of the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Front Porch&#x000A;There is an abandoned house in front of you. All the windows and doors are boarded up. There seems to be no entry from this side of the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">RightHouse&#x000A; You are facing the East side of the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken. You see nothing special about the knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">East side of the House&#x000A; You are facing the East side of the house. There is a knocked over trash can that the racoons were looting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">x trash can</command>
+    <result xml:space="preserve">Trash can is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">x trashcans</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">x trash cans</command>
+    <result xml:space="preserve">You see nothing special about trash cans.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">x trash can</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine trash cans.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">take trash cans</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">x trash can</command>
+    <result xml:space="preserve">There is only rotten food and a rusty knife in here.&#x000A;&#x000A;In trash can is rotten food.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-22"/>
+      <child nodeId="node-24"/>
+      <child nodeId="node-25"/>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">x knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">x rotten food</command>
+    <result xml:space="preserve">You see nothing special about rotten food.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">That's hardly portable.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">take rotten food</command>
+    <result xml:space="preserve">That's hardly portable.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">take rotten food </command>
+    <result xml:space="preserve">Taken. You see nothing special about rotten food.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">go into trash can</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">x trash can</command>
+    <result xml:space="preserve">There is only Rotten food and a knife in here.&#x000A;&#x000A;In trash can are a knife and rotten food.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">take knife </command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">x trash can</command>
+    <result xml:space="preserve">There is only rotten food and a rusty knife in here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">East side of the House&#x000A; A couple racoons scurry away as you turn the corner.  You are facing the East side of the house. There is a knocked over trash can that the racoons were looting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-30"/>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">RightHouse&#x000A; You are facing the East side of the house. There are knocked over trash cans that the racoons were looting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">x trash can</command>
+    <result xml:space="preserve">There is only rotten food and a rusty knife in here.&#x000A;&#x000A;In trash can is a knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">x house</command>
+    <result xml:space="preserve">You see nothing special about house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">East side of the House&#x000A; A couple racoons scurry away as you turn the corner.  You are facing the East side of the house. There is a knocked over trash can that the racoons were looting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">East side of the House&#x000A; A couple racoons scurry away as you turn the corner.  You are facing the East side of the house. There is a knocked over trash can that the racoons were looting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">x trash can</command>
+    <result xml:space="preserve">There is only rotten food and a knife in here.&#x000A;&#x000A;In trash can is a knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">East side of the House&#x000A; You are facing the East side of the house. There is a knocked over trash can that the racoons were looting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">x trash can</command>
+    <result xml:space="preserve">There is only rotten food and a rusty knife in here.&#x000A;&#x000A;In trash can is a knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Front Porch&#x000A;There is an abandoned house in front of you. All the windows and doors are boarded up. There seems to be no entry from this side of the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

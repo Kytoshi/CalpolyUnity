@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Vec2D
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Vec2D\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x\ y
+comment1.target=Vec2D(float,\ float)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Vec2D\r\n
+numComments=2
